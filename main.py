@@ -64,10 +64,10 @@ class App(ShowBase):
             os.path.join("my-models", model_name)
         )
         self.refractive_object.reparentTo(self.render)
-        # self.refractive_object.setScale(1) # dragon
+        # self.refractive_object.setScale(1)  # dragon
         # self.refractive_object.setPos(0, -82, 3)
-        # self.refractive_object.setScale(40)  # ball
-        # self.refractive_object.setPos(0, -82, 20)
+        self.refractive_object.setScale(40)  # ball
+        self.refractive_object.setPos(0, -82, 20)
         # self.refractive_object.setScale(40)  # ship
         # self.refractive_object.setPos(0, -102, 20)
 
